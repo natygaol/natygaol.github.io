@@ -31,7 +31,7 @@ a:hover {
 }
 
 
-/* Custom design with class (99% of your design) */
+/* Custom design with class */
 .container {
   width: 700px;
   margin: 40px auto;
@@ -95,7 +95,8 @@ a:hover {
   color: black;
 }
 
-/* Design adjustments using id (1% design remaining) */
+/* Design adjustments using id*/
 #introduction p {
   margin-bottom: 40px;
+  text-align: justify;
 }
