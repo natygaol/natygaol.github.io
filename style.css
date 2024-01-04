@@ -71,7 +71,7 @@ main {
   padding: 0rem 1rem;
 }
 
-.games {
+.projects {
   flex: 2;
 }
 
@@ -111,7 +111,7 @@ main {
   border-radius: 2rem;
 }
 
-.games {
+.projects {
   margin: 5rem;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@ main {
     margin-right: 20px;
   }
 
-  .games {
+  .projects {
     .status {
       display: flex;
       justify-content: center; /* Centra horizontalmente los elementos internos */
