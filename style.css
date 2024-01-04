@@ -200,8 +200,10 @@ main {
     height: 600px;
     padding: 10px;
   }
-  .link i {
-    font-size: 20px;
+  .link {
+    i, h2 {
+      font-size: 20px;
+    }
   }
   .dashboard > * {
     margin-right: 20px;
