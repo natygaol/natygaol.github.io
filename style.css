@@ -208,6 +208,15 @@ main {
   }
 
   .games {
+    .status {
+      display: flex;
+      justify-content: center; /* Centra horizontalmente los elementos internos */
+      align-items: center; /* Centra verticalmente los elementos internos */
+      flex-direction: column; /* Alinea los elementos internos en una columna */
+      width: 100%; /* Ocupa todo el ancho del contenedor */
+      /* Agrega cualquier otro estilo como padding, margin, etc., según sea necesario */
+    }
+    
     .cards {
       display: flex;
       flex-direction: column;
@@ -221,15 +230,35 @@ main {
           rgba(255, 255, 255, 0.7),
           rgba(255, 255, 255, 0.3)
         );
+        a.percentage {
+          width: fit-content;
+          display: inline-block;
+        }
+        h2 {
+          margin: 0;
+          font-size: 1rem;
+        }
+        .percentage {
+          position: relative;
+          right: 25px;
+        }
       }
     }
 
     h1 {
       font-size: 1.5rem;
+      white-space: nowrap;
     }
 
     .status input {
       display: none;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    p {
+      font-size: 0.8rem;
     }
   }
 }
