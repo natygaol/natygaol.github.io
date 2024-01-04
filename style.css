@@ -106,7 +106,7 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border: none;
-  width: 50%;
+  width: 100%;
   padding: 0.5rem;
   border-radius: 2rem;
 }
@@ -192,6 +192,44 @@ main {
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+  .glass {
+    flex-direction: column;
+  }
   .dashboard {
     width: 300px;
+    height: 600px;
+    padding: 10px;
   }
+  .link i {
+    font-size: 20px;
+  }
+  .dashboard > * {
+    margin-right: 20px;
+  }
+
+  .games {
+    .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .card {
+        width: 300px;
+        margin-left: 50px;
+        background: linear-gradient(
+          to right bottom,
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.3)
+        );
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .status input {
+      display: none;
+    }
+  }
+}
